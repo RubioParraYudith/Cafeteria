@@ -29,5 +29,7 @@ namespace Café.Models
         {
             return new ApplicationDbContext();
         }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }

@@ -10,6 +10,11 @@ namespace Café.Controllers
     {
         public ActionResult Index()
         {
+            if (User.Identity.IsAuthenticated)
+            {
+                return RedirectToAction("Index", "PaginaPrincipal");
+            }
+
             return View();
         }
 
