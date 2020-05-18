@@ -10,10 +10,10 @@ namespace Café.Models
     public class Order
     {
         public int Id { get; set; }
-        [Display(Name = "Nombre")]
+        [Display(Name = "Nombre del pedido")]
 
         public string CoffeName { get; set; }
-        [Display(Name = "Descripcion")]
+        [Display(Name = "Descripción")]
 
         public string Description { get; set; }
         [Display(Name = "Cantidad")]
