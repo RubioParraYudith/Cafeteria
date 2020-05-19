@@ -28,21 +28,20 @@
             <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="@Url.Action("Index","Acerca")">Acerca de</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="@Url.Action("Index","Menu")">Menú</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="@Url.Action("Register","Account")">Registro</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="@Url.Action("Login","Account")">Iniciar Sesión</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="@Url.Action("Create","Orders")">Pedidos</a></li>
-
                 </ul>
             </div>
         </div>
     </nav>
 
+
     <!-- Masthead-->
-    <header class="img masthead bg-dark text-white text-center">
+    <header class="img masthead bg-primary text-white text-center">
         <div class="container d-flex align-items-center flex-column">
             <!-- Masthead Heading-->
-            <h1 class="masthead-heading text-uppercase mb-0">Bienvenidos <br /> a <br /> nuestra página</h1>
+            <h1 class="masthead-heading text-uppercase mb-0">Bienvenidos <br /> a <br /> Coffe Place</h1>
             <!-- Icon Divider-->
             <div class="divider-custom divider-light">
                 <div class="divider-custom-line"></div>
@@ -54,6 +53,24 @@
     </header>
 
     <!-- Footer-->
+    <section class="copyright bg-dark py-4 text-center text-white">
+        <div class="container ">
+            <h3 class="text-white">Registrate e inicia sesión</h3> <br />
+
+            <a href="@Url.Action("Register", "Account")" class="btn btn-info btn-sm btn-icon-split">
+                @*Si no encuentras iconos ir a Font Awesome*@
+                <span class="icon text-white-50"><i class="fas fa-angle-double-right"></i></span>
+                <span class="text">Registro</span>
+            </a>
+            <a href="@Url.Action("Login","Account")" class="btn btn-info btn-sm btn-icon-split">
+                @*Si no encuentras iconos ir a Font Awesome*@
+                <span class="icon text-white-50"><i class="fas fa-angle-double-right"></i></span>
+                <span class="text">Iniciar Sesión</span>
+            </a>
+
+        </div>
+    </section>
+
     <footer class="footer bg-dark text-center">
         <div class="container">
             <div class="row">
@@ -80,7 +97,7 @@
         </div>
     </footer>
     <!-- Copyright Section-->
-    <section class="copyright bg-warning py-4 text-center text-white">
+    <section class="copyright bg-info py-4 text-center text-white">
         <div class="container "><small>Copyright © Cafeteria - Yudith Rubio Parra 2020</small></div>
     </section>
 

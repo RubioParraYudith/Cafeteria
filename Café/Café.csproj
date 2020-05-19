@@ -170,6 +170,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AcercaController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\Menu2Controller.cs" />
@@ -1781,6 +1782,7 @@
     <Content Include="Content\img\cafe-espresso7.jpg" />
     <Content Include="Content\img\cafelate1.jpg" />
     <Content Include="Content\img\CafeLatteGalletadeChocolate3.jpg" />
+    <Content Include="Content\img\cafes.jpg" />
     <Content Include="Content\img\caffeheader.jpg" />
     <Content Include="Content\img\capuchino6.jpg" />
     <Content Include="Content\img\Caramel Macchiato Helado9.jpg" />
@@ -2014,6 +2016,7 @@
     <Content Include="Views\PaginaPrincipal\Index.cshtml" />
     <Content Include="Views\Menu\Index.cshtml" />
     <Content Include="Views\Menu2\Index.cshtml" />
+    <Content Include="Views\Acerca\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

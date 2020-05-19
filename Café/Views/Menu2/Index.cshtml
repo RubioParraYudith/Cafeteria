@@ -29,11 +29,9 @@
             <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-warning text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="@Url.Action("Index","Acerca")">Acerca de</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="@Url.Action("Index","Menu")">Menú</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="@Url.Action("Create","Orders")">Pedidos</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="@Url.Action("Register","Account")">Registro</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="@Url.Action("Login","Account")">Iniciar Sesión</a></li>
-
                 </ul>
             </div>
         </div>
@@ -275,13 +273,13 @@
 
 
     <p>
-        <a href="@Url.Action("Index","Menu")" class="btn btn-primary btn-lg btn-icon-split">
+        <a href="@Url.Action("Index","Menu")" class="btn btn-info btn-lg btn-icon-split">
             @*Si no encuentras iconos ir a Font Awesome*@
             <span class="icon text-white-50"><i class="fas fa-angle-double-left"></i></span>
             <span class="text">Regresar</span>
         </a>
 
-        <a href="@Url.Action("Index","Home")" class="btn btn-primary btn-lg btn-icon-split">
+        <a href="@Url.Action("Index","Home")" class="btn btn-info btn-lg btn-icon-split">
             @*Si no encuentras iconos ir a Font Awesome*@
             <span class="icon text-white-50 "><i class="fas fa-home"></i></span>
             <span class="text">Inicio</span>
