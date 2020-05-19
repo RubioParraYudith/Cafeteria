@@ -177,6 +177,7 @@
     <Compile Include="Controllers\MenuController.cs" />
     <Compile Include="Controllers\OrdersController.cs" />
     <Compile Include="Controllers\PaginaPrincipalController.cs" />
+    <Compile Include="Controllers\PostresController.cs" />
     <Compile Include="Controllers\UsersController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -1798,6 +1799,12 @@
     <Content Include="Content\img\menu2\lungo2.png" />
     <Content Include="Content\img\menu2\Moca5.png" />
     <Content Include="Content\img\menu2\Ristretto3.png" />
+    <Content Include="Content\img\Postres\chocoflan.jpg" />
+    <Content Include="Content\img\Postres\flan.jpg" />
+    <Content Include="Content\img\Postres\Helado.jpg" />
+    <Content Include="Content\img\Postres\pastel de zanahoria.jpg" />
+    <Content Include="Content\img\Postres\pie de  queso.jpg" />
+    <Content Include="Content\img\Postres\pie de limon.png" />
     <Content Include="Scripts\jquery.easing.min.js" />
     <Content Include="Scripts\sb-admin-2.js" />
     <Content Include="Content\sb-admin-2.min.css" />
@@ -2017,6 +2024,7 @@
     <Content Include="Views\Menu\Index.cshtml" />
     <Content Include="Views\Menu2\Index.cshtml" />
     <Content Include="Views\Acerca\Index.cshtml" />
+    <Content Include="Views\Postres\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
