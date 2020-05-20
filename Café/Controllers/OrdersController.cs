@@ -15,6 +15,8 @@ namespace Café.Controllers
         private ApplicationDbContext db = new ApplicationDbContext();
 
         // GET: Orders
+        [Authorize]
+
         public ActionResult Index()
         {
             return View(db.Orders.ToList());
