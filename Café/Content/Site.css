@@ -4,5 +4,45 @@
 }
 
 .menu{
-background:url(img/illumination-731494_1920.jpg);
+background:url(img/menu2/mens.jpg);
+}
+
+.acerca {
+    background: url(img/menu2/coffee-shop-1149155_1280.jpg);
+}
+
+#Subseccion1 { /*Sub menu*/
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: rgb(28, 25, 32);
+    padding: 0;
+    width: 150px;
+    float: none;
+    line-height: 120%;
+    padding: 10px 15px;
+}
+
+#MENU:hover>#Subseccion1{
+    display:block;
+}
+#MENU ul li:hover{
+    background-color:black;
+}
+#MENU ul a {
+    display: block;
+    color: white;
+    border-color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 5px;
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 15px;
+}
+.ss{
+    background-image:url(img/cafelate1.jpg)
 }

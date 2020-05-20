@@ -1779,6 +1779,7 @@
     <Content Include="Content\fontawesome-free\webfonts\fa-brands-400.svg" />
     <Content Include="Content\fontawesome-free\webfonts\fa-regular-400.svg" />
     <Content Include="Content\fontawesome-free\webfonts\fa-solid-900.svg" />
+    <Content Include="Content\img\avataaars.svg" />
     <Content Include="Content\img\cafe latte con vainilla5.jpg" />
     <Content Include="Content\img\cafe-espresso7.jpg" />
     <Content Include="Content\img\cafelate1.jpg" />
@@ -1788,12 +1789,13 @@
     <Content Include="Content\img\capuchino6.jpg" />
     <Content Include="Content\img\Caramel Macchiato Helado9.jpg" />
     <Content Include="Content\img\coffee-423198_1920.jpg" />
-    <Content Include="Content\img\coffee-shop-1209863_1920.jpg" />
     <Content Include="Content\img\Flat White8.jpg" />
     <Content Include="Content\img\illumination-731494_1920.jpg" />
     <Content Include="Content\img\Latte-Macchiato2.jpg" />
     <Content Include="Content\img\LatteMacchiatoconCremadeChocolateyCoco4.jpg" />
     <Content Include="Content\img\menu2\Americano4.png" />
+    <Content Include="Content\img\menu2\coffee-shop-1149155_1280.jpg" />
+    <Content Include="Content\img\menu2\CoffePlace.jpg" />
     <Content Include="Content\img\menu2\Corretto1.png" />
     <Content Include="Content\img\menu2\FrappeOreo6.png" />
     <Content Include="Content\img\menu2\lungo2.png" />
@@ -1802,10 +1804,16 @@
     <Content Include="Content\img\Postres\chocoflan.jpg" />
     <Content Include="Content\img\Postres\flan.jpg" />
     <Content Include="Content\img\Postres\Helado.jpg" />
+    <Content Include="Content\img\menu2\mens.jpg" />
     <Content Include="Content\img\Postres\pastel de zanahoria.jpg" />
     <Content Include="Content\img\Postres\pie de  queso.jpg" />
     <Content Include="Content\img\Postres\pie de limon.png" />
+    <Content Include="Content\sb-admin-2.min.js" />
     <Content Include="Scripts\jquery.easing.min.js" />
+    <Content Include="Scripts\jquery\jquery.js" />
+    <Content Include="Scripts\jquery\jquery.min.js" />
+    <Content Include="Scripts\jquery\jquery.slim.js" />
+    <Content Include="Scripts\jquery\jquery.slim.min.js" />
     <Content Include="Scripts\sb-admin-2.js" />
     <Content Include="Content\sb-admin-2.min.css" />
     <Content Include="Content\styles.css" />
@@ -2025,6 +2033,8 @@
     <Content Include="Views\Menu2\Index.cshtml" />
     <Content Include="Views\Acerca\Index.cshtml" />
     <Content Include="Views\Postres\Index.cshtml" />
+    <Content Include="Scripts\jquery\jquery.min.map" />
+    <Content Include="Scripts\jquery\jquery.slim.min.map" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

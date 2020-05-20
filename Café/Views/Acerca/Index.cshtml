@@ -20,56 +20,71 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
 
 </head>
-<body id="page-top">
 
+<body id="page-top">
     <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg bg-dark text-uppercase fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg bg-info text-uppercase fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand js-scroll-trigger" href="@Url.Action("Index","Home")">Coffe Place</a>
-            <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
+            <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-warning text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="@Url.Action("Index","Acerca")">Acerca de</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="@Url.Action("Index","Menu")">Menú</a></li>
+                    <li class="nav-item mx-0 mx-lg-1" id="MENU">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="@Url.Action("Index","Menu")">Menú</a>
+                        <ul id="Subseccion1">
+                            <li><a href="@Url.Action("Index","Menu")">Bebidas</a></li>
+                            <li><a href="@Url.Action("Index","Postres")">Postres</a></li>
+                        </ul>
+                    </li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="@Url.Action("Create","Orders")">Pedidos</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-
+    <br />
     <!-- Masthead-->
-    <header class=" figure-img masthead text-white text-center">
+    <header class="acerca masthead text-white text-center">
         <div class="container d-flex align-items-center flex-column">
-            <h1 class="text-black-50 mb-0 text-center">Unete a nosotros <br /> ó <br /> Mandanos tus opiniones</h1>
-            </div>
-          
-</header>
-
-    <!-- About Section-->
-    <section class="page-section bg-primary text-white mb-0" id="about">
-        <div class="container">
-            <!-- About Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-white">Coffe Place</h2>
-            <!-- Icon Divider-->
             <div class="divider-custom divider-light">
                 <div class="divider-custom-line"></div>
                 <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                 <div class="divider-custom-line"></div>
             </div>
+            <div class="masthead-heading masthead">
+                <h1>Queremos mejorar para brindarte un mejor servicio.</h1>
+                <h4 class="">¡Envianos tus sugerencias y comunicate con nosotros!</h4>
+            </div>
+
+        </div>
+      
+    </header>
+ 
+
+    <!-- About Section-->
+    <section class=" page-section bg-primary text-white" id="about">
+        <div class="container">
+
+            <h1 class="masthead-heading text-uppercase text-center">Sobre nosotros <br /></h1>
+            <!-- Masthead Avatar Image--><img class="container mb-2  " src="~/Content/img/caffeheader.jpg" alt="" /><!-- Masthead Heading-->
             <!-- About Section Content-->
             <div class="row">
-                <div class="col-lg-4 ml-auto"><p class="lead">Nuestras cafeterías se han convertido en puntos de referencia para los amantes del café en todo el mundo. Nos apasiona nuestra labor de abastecedores de café, así como todo lo relacionado con el disfrute de una experiencia gratificante en una de nuestras tiendas. </p></div>
-                <div class="col-lg-4 mr-auto"><p class="lead">También ofrecemos una selección de tés de calidad superior, alta repostería y otras alternativas deliciosas para agradar al paladar. Sin olvidar que la música que se escucha en nuestras tiendas está elegida por su calidad artística y su atractivo.</p></div>
+                <div class="col-lg-4 ml-auto"><p class="lead text-justify">
+    Nuestra misión: Inspirar y nutrir el espíritu humano: Una persona, una taza y una comunidad a la vez.<br />
+
+    Declaración de misión sobre el medio ambiente
+    En Coffe Place tenemos el compromiso de desempeñar una función de liderazgo medioambiental en todas las facetas de nuestro negocio.
+</p></div>
+                <div class="col-lg-4 mr-auto"><p class="lead text-justify">También ofrecemos una selección de tés de calidad superior, alta repostería y otras alternativas deliciosas para agradar al paladar. Sin olvidar que la música que se escucha en nuestras tiendas está elegida por su calidad artística y su atractivo. <br />¡Ven a visitarnos!</p></div>
             </div>
-           
         </div>
     </section>
-    <!-- Contact Section-->
+    <!-- Seccion Contacto-->
     <section class="page-section" id="contact">
-        <div class="container">
+        <div class="container ">
             <!-- Contact Section Heading-->
             <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contactanos</h2>
-            <!-- Icon Divider-->
+            <!-- Iconos-->
             <div class="divider-custom">
                 <div class="divider-custom-line"></div>
                 <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
@@ -78,7 +93,7 @@
             <!-- Contact Section Form-->
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.-->
+
                     <form id="contactForm" name="sentMessage" novalidate="novalidate">
                         <div class="control-group">
                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
@@ -94,7 +109,7 @@
                         </div>
                         <div class="control-group">
                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                <label>Teléfonor</label><input class="form-control" id="phone" type="tel" placeholder="Teléfono" required="required" data-validation-required-message="Please enter your phone number." />
+                                <label>Teléfono</label><input class="form-control" id="phone" type="tel" placeholder="Teléfono" required="required" data-validation-required-message="Please enter your phone number." />
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
