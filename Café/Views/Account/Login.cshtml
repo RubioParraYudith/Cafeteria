@@ -9,11 +9,11 @@
     <div class="masthead-content">
         <div class="container">
             <section id="loginForm">
+                <br /> <br />
+
                 @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
                 {
                     @Html.AntiForgeryToken()
-                    <h4>Inicia sesión para entrar.</h4>
-                    <hr />
                     @Html.ValidationSummary(true, "", new { @class = "text-danger" })
                     <div class="form-group">
                         <label class="col-md-4"> Correo Electrónico</label>
@@ -40,14 +40,20 @@
                     <div class="form-group">
                         <div class="col-md-offset-2 col-md-10">
                             <input type="submit" class="btn btn-outline-dark" value="Iniciar sesión" />
-                            <a href="@Url.Action("Register","Account")" class="btn btn-outline-success">Crear nuevo usuario</a>
+                            <a href="@Url.Action("Index", "Home")" class="btn btn-outline-danger">Regresar</a>
                         </div>
                     </div>
+                    <br /> <br />
+                    <br />
+                    <br /> <br />
+                    <br /> <br />
+
+
 
                     @* Habilite esta opción una vez tenga la confirmación de la cuenta habilitada para la funcionalidad de restablecimiento de contraseña
-                        <p>
-                            @Html.ActionLink("¿Ha olvidado su contraseña?", "ForgotPassword")
-                        </p>*@
+            <p>
+                @Html.ActionLink("¿Ha olvidado su contraseña?", "ForgotPassword")
+            </p>*@
                 }
             </section>
         </div>
