@@ -19,7 +19,7 @@ namespace Café.Models
         [Display(Name = "Cantidad")]
 
         public int Quantity { get; set; }
-        [Display(Name = "Precio")]
+        [Display(Name = "Forma de Pago")]
 
         public decimal Price { get; set; }
         [Display(Name = "Estado")]

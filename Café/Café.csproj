@@ -1794,6 +1794,8 @@
     <Content Include="Content\img\Latte-Macchiato2.jpg" />
     <Content Include="Content\img\LatteMacchiatoconCremadeChocolateyCoco4.jpg" />
     <Content Include="Content\img\menu2\Americano4.png" />
+    <Content Include="Content\img\menu2\cafe amerc.jpg" />
+    <Content Include="Content\img\menu2\Café-americano.jpg" />
     <Content Include="Content\img\menu2\coffee-shop-1149155_1280.jpg" />
     <Content Include="Content\img\menu2\CoffePlace.jpg" />
     <Content Include="Content\img\menu2\Corretto1.png" />
@@ -1805,6 +1807,7 @@
     <Content Include="Content\img\Postres\flan.jpg" />
     <Content Include="Content\img\Postres\Helado.jpg" />
     <Content Include="Content\img\menu2\mens.jpg" />
+    <Content Include="Content\img\Postres\pastel de zana.jpg" />
     <Content Include="Content\img\Postres\pastel de zanahoria.jpg" />
     <Content Include="Content\img\Postres\pie de  queso.jpg" />
     <Content Include="Content\img\Postres\pie de limon.png" />
