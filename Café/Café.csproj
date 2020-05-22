@@ -189,6 +189,10 @@
     <Compile Include="Migrations\202005170632247_FirstMigration.Designer.cs">
       <DependentUpon>202005170632247_FirstMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202005222018551_UpdateFirstMigration.cs" />
+    <Compile Include="Migrations\202005222018551_UpdateFirstMigration.Designer.cs">
+      <DependentUpon>202005222018551_UpdateFirstMigration.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -2035,7 +2039,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Content\img\perfil\" />
-    <Folder Include="Views\User\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -2054,6 +2057,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202005170632247_FirstMigration.resx">
       <DependentUpon>202005170632247_FirstMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005222018551_UpdateFirstMigration.resx">
+      <DependentUpon>202005222018551_UpdateFirstMigration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
